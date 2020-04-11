@@ -2,7 +2,7 @@ pipeline {
     agent{
         label "generic"
     } //agent
-    stage {
+    stages {
         steps {
             sh """
                 sudo pip3 install molecule
