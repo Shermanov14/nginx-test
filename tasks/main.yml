@@ -1,12 +1,12 @@
 ---
 # tasks file for nginx-test
 - name: add epel-release repo
-yum: 
+yum:
   name: epel-release 
   state: present
 
 - name: Install nginx
-  yum: 
+  yum:
     name: nginx
     state: present
 
